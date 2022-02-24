@@ -1,0 +1,634 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The ex-ale-tation of ale written by a learned pen.</title>
+            <author>Mews, Peter, 1619-1706.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1671</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 19 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A50776</idno>
+            <idno type="STC">Wing M1954</idno>
+            <idno type="STC">ESTC R1778</idno>
+            <idno type="EEBO-CITATION">12774143</idno>
+            <idno type="OCLC">ocm 12774143</idno>
+            <idno type="VID">93732</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A50776)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 93732)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 699:13)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The ex-ale-tation of ale written by a learned pen.</title>
+                  <author>Mews, Peter, 1619-1706.</author>
+               </titleStmt>
+               <extent>15 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by J.R.,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1671.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>A poem.</note>
+                  <note>Attributed to the Bishop of Winchester, Peter Mews, by Wing and DNB.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Ale --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-03</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2010-03</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:93732:1"/>
+            <!-- PDF PAGE 1 -->
+            <pb facs="tcp:93732:1"/>
+            <!-- PDF PAGE 1 -->
+            <p>THE Ex-Ale-tation OF ALE.</p>
+            <p>written by a Learned Pen.</p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>J. R.</hi> 1671.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:93732:2"/>
+            <!-- PDF PAGE 2 -->
+            <pb n="3" facs="tcp:93732:2"/>
+            <!-- PDF PAGE 2 -->
+            <head>THE Ex-Ale-tation OF ALE.</head>
+            <lg>
+               <l>NOt drunken, nor ſober, but neighbour to both,</l>
+               <l>I met with a Friend in <hi>Aleſ-bury</hi> Vale</l>
+               <l>He ſaw by my face, that I was in the Caſe</l>
+               <l>To ſpeak no great harm of a <hi>Pot of good Ale.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Then did he me greet, and ſaid, ſince we meet,</l>
+               <l>(And he put me in mind of the name of the Dale)</l>
+               <l>For <hi>Aleſ-bury's</hi> ſake ſome pains I would take,</l>
+               <l>And not bury the praiſe of a <hi>pot of good Ale.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="4" facs="tcp:93732:3"/>
+               <!-- PDF PAGE 3 -->
+               <l>The more to procure me, then he did adjure me</l>
+               <l>If the <hi>Ale</hi> I drank laſt were nappy and ſtale,</l>
+               <l>To do it its right, and ſtir up my ſprite,</l>
+               <l>And fall to commend a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>Quoth I, To commend it I dare not begin,</l>
+               <l>Leſt therein my Credit might happen to fail:</l>
+               <l>For, many men now do count it a ſin,</l>
+               <l>But once to look toward a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>Yet I care not a pin, For I ſee no ſuch ſin,</l>
+               <l>Nor any thing elſe my courage to quail:</l>
+               <l>For, this we do find, that take it in kind,</l>
+               <l>Much vertlie there is in a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>And I mean not to taſte, though thereby much geac't,</l>
+               <l>Nor the <hi>Merry-go-down</hi> without pull or hale,</l>
+               <l>Perfuming the throat, when the ſtomack's afloat,</l>
+               <l>With the Fragrant ſweet ſcent of a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>Nor yet the delight that comes to the <hi>Sight</hi>
+               </l>
+               <l>To ſee how it flowers and mantles in graile,</l>
+               <l>As green as a <hi>Leeke</hi> with a ſmile in the cheek.</l>
+               <l>The true orient colour of a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>But I mean the <hi>Mind,</hi> and the good it doth find;</l>
+               <l>Not only the <hi>Body</hi> ſo feeble and fraile:</l>
+               <l>For, <hi>Body</hi> and and <hi>Soul</hi> may bleſt the <hi>black bowle,</hi>
+               </l>
+               <l>Since both are beholden to a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <pb n="5" facs="tcp:93732:3"/>
+               <!-- PDF PAGE 3 -->
+               <l>For, when <hi>heavineſs</hi> the mind doth oppreſs,</l>
+               <l>And <hi>ſorrow</hi> and <hi>grief</hi> the heart do aſſaile,</l>
+               <l>No remedy quicker than to take off your Liquor,</l>
+               <l>And to waſh away <hi>cares</hi> with a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>The <hi>Widow</hi> that buried her Husband of late,</l>
+               <l>VVill ſoon have forgotten to weep and to waile,</l>
+               <l>And think every day twain till ſhe marry again,</l>
+               <l>If ſhe read the contents of a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>It is like a <hi>belly-blast</hi> to a cold <hi>heart,</hi>
+               </l>
+               <l>And warms and engenders the <hi>ſpirits vitale,</hi>
+               </l>
+               <l>To keep them, from domage, all <hi>ſpirits</hi> owe their ho<g ref="char:EOLhyphen"/>mage</l>
+               <l>To the <hi>Sp'rite of the butiery</hi> a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>And down to the <hi>legs</hi> the vertue doth go,</l>
+               <l>And to a bad <hi>Foot-man</hi> is as good as a <hi>ſaile;</hi>
+               </l>
+               <l>When it fills the Veins, and makes light the Brains.</l>
+               <l>No <hi>Lackey</hi> ſo nimble as a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>The naked complains for want of a coat,</l>
+               <l>Nor on the cold weather will once turn his taile:</l>
+               <l>All the way as he goes, he cuts the wind with his Noſe,</l>
+               <l>If he be but well wrapt in a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>The hungry man takes no thought for his meat,</l>
+               <l>Though his ſtomack would brook a <hi>ten-penny</hi> naile;</l>
+               <l>He quite fogets hunger, thinks on i<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> no longer,</l>
+               <l>If he touch but the ſparks of a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <pb n="6" facs="tcp:93732:4"/>
+               <!-- PDF PAGE 4 -->
+               <l>The <hi>poor man</hi> will praiſe it, ſo hath he good cauſe.</l>
+               <l>That all the year eats neither <hi>Partridg</hi> nor <hi>Quailt,</hi>
+               </l>
+               <l>But ſets up his reſt, and makes up his Feaſt</l>
+               <l>VVith a cruſt of <hi>brown bread,</hi> and a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>The <hi>Shepheard,</hi> the <hi>Sower,</hi> the <hi>Threſher,</hi> the <hi>Mower,</hi>
+               </l>
+               <l>The one with his <hi>Scythe,</hi> the other with his <hi>Flaile,</hi>
+               </l>
+               <l>Take them out by the poll, on the perill of my ſoll,</l>
+               <l>All will hold up their hands to a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>The <hi>Black ſmith</hi> whoſe bellows all Summer do blow,</l>
+               <l>VVith the Fire in his Face ſtill, without e're a vaile.</l>
+               <l>Though his throat be full dry, he will tell you no lye,</l>
+               <l>But where you may be ſure of a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>VVho ever denies it, the Priſoners will praiſe it,</l>
+               <l>That beg at Grate, and lye in the <hi>Goale:</hi>
+               </l>
+               <l>For, even in their <hi>Fetters,</hi> they think themſelves better,</l>
+               <l>May they get but a two-penny black <hi>pot</hi> of <hi>Ale.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The Beggar whoſe portion is alwaies his prayers,</l>
+               <l>Not having a tatter to hang on his taile,</l>
+               <l>Is as rich in his raggs, as the churle in his bags,</l>
+               <l>If he once but ſhakes hands with a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>It drives his poverty clean out of mind,</l>
+               <l>Forgetting his <hi>brown bread,</hi> his <hi>wallet</hi> and <hi>maile;</hi>
+               </l>
+               <l>He walks in the houſe like a <hi>ſix footed Louſe,</hi>
+               </l>
+               <l>If he once be enrich'd with a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <pb n="7" facs="tcp:93732:4"/>
+               <!-- PDF PAGE 4 -->
+               <l>And he that doth <hi>dig</hi> in the ditches all day,</l>
+               <l>And wearies himſelf quite at the <hi>plough-tail.</hi>
+               </l>
+               <l>VVill ſpeak no leſs things than of <hi>Queens</hi> and of <hi>Kings,</hi>
+               </l>
+               <l>If he touch but the top of a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>'Tis like a VVhetſtone to a <hi>blunt wit,</hi>
+               </l>
+               <l>And makes a ſupply where Nature doth fail:</l>
+               <l>The dulleſt wit ſoon will look quite through the Moon,</l>
+               <l>If his temples be wet with a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>Then DICK to his <hi>Dearling,</hi> full boldly dares ſpeak,</l>
+               <l>Though, before (ſilly fellow) his courage did quail,</l>
+               <l>He gives her the <hi>ſmouch,</hi> with his hand on his pouch,</l>
+               <l>If he meet by the way with a &amp;c.</l>
+            </lg>
+            <lg>
+               <l>And it makes the <hi>Carter</hi> a <hi>Courtier</hi> ſtraight-way,</l>
+               <l>VVith Rhetorical terms he will tell his tale,</l>
+               <l>VVith <hi>Courteſies</hi> great ſtore, and his Cap up before,</l>
+               <l>Being ſchool'd but a little with a &amp;c.</l>
+            </lg>
+            <lg>
+               <l>The <hi>Old man,</hi> whoſe tongue wags faſter then his teeth,</l>
+               <l>(For old-age by nature doth drivel and drale)</l>
+               <l>VVill frig and will ſting, like a dog in a ſtring,</l>
+               <l>If he warm his cold bloud with a &amp;c.</l>
+            </lg>
+            <lg>
+               <l>And the good <hi>Old Clark,</hi> whoſe ſight waxeth dark,</l>
+               <l>And ever he thinketh the print is too ſmall,</l>
+               <l>He will ſee every letter, and ſay Service better,</l>
+               <l>If he glaze but his eyes with a &amp;c.</l>
+            </lg>
+            <lg>
+               <pb n="8" facs="tcp:93732:5"/>
+               <!-- PDF PAGE 5 -->
+               <l>The <hi>Cheeks</hi> and the <hi>Jawes</hi> to commend it have cauſe;</l>
+               <l>For where they were late but even wan and pale,</l>
+               <l>They will get them a colour, no <hi>Crimſon</hi> is fuller,</l>
+               <l>By the true die and tincture of a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>Mark her Enemies, though they think themſelves wiſe,</l>
+               <l>How <hi>meager</hi> they look, with how low a waile,</l>
+               <l>How their cheeks do fall, without ſp'rits at all,</l>
+               <l>That alien their minds from a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>And now that the grains do work in my brains,</l>
+               <l>Me thinks I were able to give by retaile</l>
+               <l>Commodities ſtore, a dozen and more,</l>
+               <l>That flow to Mankind from a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>The MUSES would muſe any ſhould it miſuſe:</l>
+               <l>For it makes them to ſing like a <hi>Nightingale,</hi>
+               </l>
+               <l>VVith a lofty trim note, having waſhed their throat</l>
+               <l>VVith the <hi>Caballine</hi> Spring of a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>And the <hi>Muſician</hi> of any condition,</l>
+               <l>It will make him reach to the top of the <hi>Scale:</hi>
+               </l>
+               <l>It will clear his pipes, and moiſten his lights,</l>
+               <l>If he drink <hi>alternatim</hi> a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>The <hi>Poet</hi> Divine, that cannot reach wine,</l>
+               <l>Becauſe that his mony doth many times faile,</l>
+               <l>VVill hit on the vein to make a good ſtrain,</l>
+               <l>If he be but <hi>inſpir'd</hi> with a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <pb n="9" facs="tcp:93732:5"/>
+               <!-- PDF PAGE 5 -->
+               <l>For <hi>Ballads ELDERTON</hi> never had Peer,</l>
+               <l>How went his wit in them, with how merry a Gale,</l>
+               <l>And with all the Sails up, had he been at the Cup,</l>
+               <l>And waſhed his beard with a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>And the power of it ſhowes, no whit leſs in <hi>Proſe,</hi>
+               </l>
+               <l>It will file one's phraſe, and ſet forth his Tale</l>
+               <l>Fill him but a Bowle, it will make his Tongue troul,</l>
+               <l>For <hi>flowing ſpeech</hi> flows from a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>And <hi>Maſter Philoſopher,</hi> if he drink his part,</l>
+               <l>VVill not triſle his time in the <hi>huſke</hi> or the <hi>ſhale,</hi>
+               </l>
+               <l>But to go to the <hi>kernel</hi> by the depth of his Art,</l>
+               <l>To be found in the bottom of a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>Give a <hi>Scholar</hi> of <hi>OXFORD</hi> a pot of <hi>Sixteen.</hi>
+               </l>
+               <l>And put him to prove that an Ape hath no <hi>taile,</hi>
+               </l>
+               <l>And ſixteen times better his wit will be ſeen,</l>
+               <l>If you fetch him from <hi>Batley</hi> a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>Thus it helps <hi>ſpeech</hi> and <hi>wit,</hi> and it hurts not a whit,</l>
+               <l>But rather doth further the <hi>Virtues Morale.</hi>
+               </l>
+               <l>Then thinks it not much if a little I touch</l>
+               <l>The good moral parts of a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>To the <hi>Church</hi> and <hi>Religion</hi> it is a good Friend,</l>
+               <l>Or elſe our Fore-Fathers their wiſdome did faile,</l>
+               <l>That at every mile, next to the <hi>Church</hi> ſtile,</l>
+               <l>Sot a <hi>conſecrate houſe</hi> to a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <pb n="10" facs="tcp:93732:6"/>
+               <!-- PDF PAGE 6 -->
+               <l>But now, as they ſay, <hi>Beer</hi> bears it away;</l>
+               <l>The more is the pity if right might prevail:</l>
+               <l>For, with this ſame <hi>Beer,</hi> came up <hi>Hereſie</hi> here,</l>
+               <l>The old <hi>Catholick drink</hi> is a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>The <hi>Churches</hi> much ow, as we all do know;</l>
+               <l>For when they be drooping and ready to fall,</l>
+               <l>By a <hi>Whitſon</hi> or <hi>Church Ale,</hi> up again they ſhall go,</l>
+               <l>And owe their repairing to a &amp;c.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Truth</hi> will do it right, it brings <hi>Truth</hi> to light,</l>
+               <l>And many bad matters it helps to reveal:</l>
+               <l>For, they that will drink, will ſpeak what they think;</l>
+               <l>TOM <hi>Tell-troth</hi> lies hid in a &amp;c.</l>
+            </lg>
+            <lg>
+               <l>It is <hi>Juſtices</hi> friend, ſhe will it commend:</l>
+               <l>For, all is here ſerved by <hi>Meaſure</hi> and <hi>tale:</hi>
+               </l>
+               <l>Now, <hi>true-tale,</hi> and <hi>good meaſure,</hi> are <hi>Juſtices</hi> treaſure,</l>
+               <l>And much to the praiſe of a &amp;c.</l>
+            </lg>
+            <lg>
+               <l>And next I alledge, it is <hi>Fortitudes</hi> edge:</l>
+               <l>For, a very Cow-heard, that ſhrinks like a Snail,</l>
+               <l>Will ſwear and will ſwagger, and out goes his Dagger,</l>
+               <l>If he be but <hi>armed</hi> with a &amp;c.</l>
+            </lg>
+            <lg>
+               <l>Yea, ALE hath her <hi>Knights</hi> and <hi>Squires</hi> of degree,</l>
+               <l>That never wore Corſlet, nor yet ſhirt of mail,</l>
+               <l>But have fought their fights all, t'wixt the pot &amp; the wall</l>
+               <l>VVhen once they were <hi>dubb'd</hi> with a &amp;c.</l>
+            </lg>
+            <lg>
+               <pb n="11" facs="tcp:93732:6"/>
+               <!-- PDF PAGE 6 -->
+               <l>And (ſure) it will make a man ſuddenly <hi>Wiſe,</hi>
+               </l>
+               <l>Er'e-while was ſcarce able to tell a right tale:</l>
+               <l>It will open his jaw, he will tell you the <hi>Law,</hi>
+               </l>
+               <l>As made a right <hi>Bencher</hi> of a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>Or he that will make a <hi>bargain</hi> to gain,</l>
+               <l>In <hi>buying</hi> or <hi>ſetting</hi> his goods forth to <hi>ſale,</hi>
+               </l>
+               <l>Muſt not plod in the mire, but ſit by the fire,</l>
+               <l>And ſeal up his Match with a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>But for <hi>Soberneſs</hi> needs, muſt I confeſs,</l>
+               <l>The matter goes hard; and few do prevaile</l>
+               <l>Not to go too deep, but <hi>temper</hi> to keep,</l>
+               <l>Such is the <hi>Attractive</hi> of a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>But here's an amends, which will make all Friends,</l>
+               <l>And ever doth tend to the beſt avail;</l>
+               <l>If you take it too deep it will make you but ſleep;</l>
+               <l>So comes no great harm of a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>If (reeling) they happen to fall to the ground,</l>
+               <l>The fall is not great, they may hold by the Raile:</l>
+               <l>If into the water, they cannot be drown'd.</l>
+               <l>For that gift is given to a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>If drinking about they chance to fall our,</l>
+               <l>Fear not that <hi>Alarm,</hi> though fleſh be but fraile,</l>
+               <l>It will prove but ſome blows, or at moſt a bloody noſe,</l>
+               <l>And friends again ſtraight with a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <pb n="12" facs="tcp:93732:7"/>
+               <!-- PDF PAGE 7 -->
+               <l>And <hi>Phyſick</hi> will favour <hi>ALE</hi> as it is bound,</l>
+               <l>And be againſt <hi>Beer</hi> both tooth and naile;</l>
+               <l>They ſend up and down all over the town</l>
+               <l>To get for their Patients a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>Their <hi>Ale-berries, cawdels</hi> and <hi>poſſet;</hi> each one,</l>
+               <l>And <hi>Syllabubs</hi> made at the Milking-pale,</l>
+               <l>Although they be many, <hi>Beer</hi> comes not in any,</l>
+               <l>But all are compoſed with a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>And in very deed the <hi>Hop's</hi> but a weed</l>
+               <l>Brought o're againſt Law, and here ſet to ſale:</l>
+               <l>Would the Law were renew'd, and no more <hi>Beer</hi> brew'd</l>
+               <l>But all men betake them to a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>The Law that will take it under his wing.</l>
+               <l>For, at every <hi>Lax-day,</hi> or <hi>Moot of the hale,</hi>
+               </l>
+               <l>One is ſworn to ſerve our <hi>Soveraigne</hi> the <hi>King,</hi>
+               </l>
+               <l>In the ancient <hi>Office</hi> of a <hi>Conner</hi> of <hi>Ale.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>There's never a Lord of <hi>Mannor</hi> or of a <hi>Town,</hi>
+               </l>
+               <l>By ſtrand or by Land by hill or by dale,</l>
+               <l>But thinks it a <hi>Franchiſe,</hi> and a <hi>Flow'r</hi> of the <hi>Crown,</hi>
+               </l>
+               <l>To hold the <hi>Aſſize</hi> of a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>And though there lie <hi>Writs,</hi> from the <hi>Courts Paramount,</hi>
+               </l>
+               <l>To ſtay the proceedings of the <hi>Courts Paravaile;</hi>
+               </l>
+               <l>
+                  <hi>Law</hi> favours it ſo, you may come, you may go,</l>
+               <l>There lies no <hi>Prohibition</hi> to a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <pb n="13" facs="tcp:93732:7"/>
+               <!-- PDF PAGE 7 -->
+               <l>They talk much of <hi>State</hi> both early and late,</l>
+               <l>But if <hi>Gaſcoign</hi> and <hi>Spain</hi> their <hi>wine</hi> ſhould but faile,</l>
+               <l>No remedy then, with us <hi>Engliſhmen,</hi>
+               </l>
+               <l>But the <hi>State</hi> it muſt ſtand by a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>And they that ſit by it ware good men and quiet,</l>
+               <l>No dangerous <hi>Plotters</hi> in the Common-weale</l>
+               <l>Of <hi>Treaſon</hi> and <hi>Murder:</hi> For they never go further</l>
+               <l>Then to call for, and pay for a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>To the praiſe of <hi>Gambrivius</hi> that good <hi>Brittiſh King</hi>
+               </l>
+               <l>That devis'd for his Nation (by the <hi>Welſhmen's</hi> tale)</l>
+               <l>Seventeen hundred years before <hi>Chriſt</hi> did ſpring,</l>
+               <l>The happy invention of a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>The <hi>North</hi> they will praiſe it, &amp; praiſe it with paſſion,</l>
+               <l>Where every <hi>River</hi> gives name to a <hi>Dale:</hi>
+               </l>
+               <l>There men are <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>t yet living that are of th'old faſhion,</l>
+               <l>No <hi>Nectar</hi> they know but a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>The <hi>Picts</hi> and the <hi>Scots</hi> for <hi>Ale</hi> were at lots,</l>
+               <l>So high was the skill, and ſo kept under ſcale:</l>
+               <l>The <hi>Picts</hi> were undone, ſlain each mothers ſon,</l>
+               <l>For not teaching the <hi>Scots</hi> to make <hi>Hether-Eale<g ref="char:punc">▪</g>
+                  </hi>
+               </l>
+            </lg>
+            <lg>
+               <l>But hither or thither, it skills not much whether:</l>
+               <l>For Drink muſt be had, men live not by <hi>Keale.</hi>
+               </l>
+               <l>Not by <hi>Havor-bannocks,</hi> nor by <hi>Havor-jannocks</hi>
+               </l>
+               <l>The thing the <hi>Scots</hi> live on is a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <pb n="14" facs="tcp:93732:8"/>
+               <!-- PDF PAGE 8 -->
+               <l>Now, if ye will ſay it, I will not deny it,</l>
+               <l>That many a man it brings to his bale:</l>
+               <l>Yet, what fairer end, can one wiſh to his friend,</l>
+               <l>Then to die by the part of a &amp;c.</l>
+            </lg>
+            <lg>
+               <l>Yet, let not the innocent bear any blame</l>
+               <l>It is their own doings<g ref="char:punc">▪</g> to break o're the pale:</l>
+               <l>And neither the <hi>Malt,</hi> nor the good VViſe in <hi>fault,</hi>
+               </l>
+               <l>If any be potted with a &amp;c.</l>
+            </lg>
+            <lg>
+               <l>They tell whom it kills, but ſay not a word,</l>
+               <l>How many a man liveth both ſound and hale.</l>
+               <l>Though he drink no <hi>Beer,</hi> any day in the year,</l>
+               <l>By the <hi>Radical humor</hi> of a &amp;c.</l>
+            </lg>
+            <lg>
+               <l>But to ſpeak of <hi>Killing,</hi> that am I not willing;</l>
+               <l>For that in a manner, were but to rail:</l>
+               <l>But BEER hath its name, cauſe it brings to the <hi>Biere,</hi>
+               </l>
+               <l>Therefore well-fare ſay I, to a &amp;c.</l>
+            </lg>
+            <lg>
+               <l>Too many (I wis) with their deaths, proved this<g ref="char:punc">▪</g>
+               </l>
+               <l>And therefore (if ancient Records do not fail)</l>
+               <l>He that firſt brew'd the <hi>Hop,</hi> was rewarded with a <hi>rope,</hi>
+               </l>
+               <l>And found his <hi>Beer</hi> far more bitter then <hi>ALE.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>O <hi>ALE ab alendo;</hi> thou <hi>Liquor</hi> of LIFE!</l>
+               <l>That had but a Mouth as big as a <hi>whale;</hi>
+               </l>
+               <l>For mine is too little to touch the leaſt tittle</l>
+               <l>That belongs to the praiſe of a &amp;c.</l>
+            </lg>
+            <lg>
+               <pb n="15" facs="tcp:93732:8"/>
+               <!-- PDF PAGE 8 -->
+               <l>Thus (I trow) ſome <hi>Vertues</hi> I have mark'd you out,</l>
+               <l>And never a <hi>Vice</hi> in all this long traile,</l>
+               <l>But that after the <hi>Pot</hi> there cometh a <hi>Shot,</hi>
+               </l>
+               <l>And that's th' only <hi>blot</hi> of a <hi>pot,</hi> &amp;c.</l>
+            </lg>
+            <lg>
+               <l>VVith that my Friend ſaid, that blot will I bear,</l>
+               <l>You have done very well, it is time to ſtrike ſaile,</l>
+               <l>VVee'l have ſix pots more, though I dy on the ſcore,</l>
+               <l>To make all this good of a <hi>Pot of good ALE.</hi>
+               </l>
+            </lg>
+            <trailer>FINIS</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
